@@ -121,10 +121,12 @@ private fun Greeting(name: String) {
                     .padding(bottom = extraPadding.coerceAtLeast(0.dp))
             ) {
                 Text(text = "Hello, ")
-                Text(text = name,
-                style = MaterialTheme.typography.h3.copy(
-                    fontWeight = FontWeight.ExtraBold
-                ))
+                Text(
+                    text = name,
+                    style = MaterialTheme.typography.h3.copy(
+                        fontWeight = FontWeight.ExtraBold
+                    )
+                )
             }
             Button(
                 onClick = { expanded = !expanded }
