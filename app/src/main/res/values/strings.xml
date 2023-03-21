@@ -18,4 +18,9 @@
     <string name="bottom_navigation_home">HOME</string>
     <string name="bottom_navigation_profile">PROFILE</string>
     <string name="placeholder_search">Search</string>
+
+    <string name="water_count">You\'ve had %d count glasses</string>
+    <string name="water_count_add_btn">Add one</string>
+    <string name="water_count_task">Have you taken your 15 minute walk today?</string>
+    <string name="water_count_clear_btn">Clear water count</string>
 </resources>
