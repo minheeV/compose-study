@@ -32,7 +32,7 @@ import androidx.compose.ui.unit.dp
 import com.study.compose.ui.theme.ComposestudyTheme
 import java.util.*
 
-class CodeLabActivity : ComponentActivity() {
+class MySootheActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
